@@ -1,6 +1,8 @@
 import FeaturedCourse from "@/components/FeaturedCourse";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import MovingCards from "@/components/MovingsCards";
+import ToolTip from "@/components/ToolTip";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
@@ -12,6 +14,8 @@ export default function Home() {
       <WhyChooseUs />
       <MovingCards />
       <UpcomingWebinars />
+      <ToolTip />
+      <Footer />
     </main>
   );
 }
